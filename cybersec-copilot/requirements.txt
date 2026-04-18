@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+groq
+requests
+scikit-learn
+pandas
+numpy
+joblib

@@ -1,0 +1,8 @@
+.env
+.env.*
+*.pyc
+__pycache__/
+.venv/
+venv/
+data/chroma/
+cybersec-copilot/data/chat_history.sqlite3

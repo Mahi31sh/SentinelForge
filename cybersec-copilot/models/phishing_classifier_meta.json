@@ -1,0 +1,36 @@
+{
+  "feature_names": [
+    "url_length",
+    "domain_length",
+    "path_length",
+    "has_https",
+    "has_http_only",
+    "has_ip_address",
+    "subdomain_count",
+    "has_deep_subdomain",
+    "at_sign_count",
+    "dash_in_domain",
+    "dot_count",
+    "digit_in_domain",
+    "special_char_count",
+    "hex_encoded_chars",
+    "brand_in_domain",
+    "brand_in_path",
+    "suspicious_tld",
+    "trusted_tld",
+    "domain_entropy",
+    "suspicious_words_in_url"
+  ],
+  "auc_roc": 1.0,
+  "accuracy": 1.0,
+  "n_train": 2880,
+  "n_test": 720,
+  "using_synthetic": true,
+  "top_features": [
+    "digit_in_domain",
+    "suspicious_words_in_url",
+    "has_https",
+    "has_http_only",
+    "trusted_tld"
+  ]
+}
